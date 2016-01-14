@@ -1,0 +1,9 @@
+body {text-align:center;}
+header {background-color:navy; color:white; padding:1px; font-size:150%;}
+nav {line-height:30px; background-color:#eeeeee; height:550px; width:170px; float:left; padding:5px;}
+article {float:left; margin-left:50px; margin-top:50px; width:650px;}
+section {width:500px; float:right; padding:10px;}
+footer {background-color:navy; color:white; clear:both; text-align:center; padding:5px;}
+.menu {background-color:navy; color:white; padding:10px 55px; text-decoration:none; border-radius:20px 20px;}
+a.menu:hover {background-color:red;}
+p.about {font-size:150%;}
