@@ -42,7 +42,7 @@
           <li><%= link_to current_user.email %></li>
           <li><%= link_to 'Log out', logout_path, method: :delete, id:"navlink" %></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" id="navlink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Your Profile <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" id="navlink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Your Profile <%= "Admin" if current_user.admin? %> <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><%= link_to "View profile", user_path(current_user) %></li>
               <li><%= link_to "Edit profile", edit_user_path(current_user)  %></li>
