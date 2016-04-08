@@ -41,9 +41,9 @@ group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-# end
+end
 
-# group :development do
+group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 

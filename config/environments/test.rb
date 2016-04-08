@@ -39,4 +39,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  # CORRER EL WEB-CONSOLE EN TEST ENVIRONMENT  
+  # config.web_console.development_only = false
+
 end
